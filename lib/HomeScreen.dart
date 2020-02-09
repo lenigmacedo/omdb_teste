@@ -20,7 +20,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   Color secondaryColor = Color(0xFFe79808);
   Color primaryColor = Color(0xFF5F6FB7);
-  List<Movie> moviess;
+  List<Movie> movies;
 
   final search = TextEditingController();
   bool loading = false;
