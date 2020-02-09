@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
           primaryColor: primaryColor, textSelectionHandleColor: primaryColor),
-      title: 'OMDbbbb',
+      title: 'OMDb',
       home: HomeScreen(),
     );
   }
